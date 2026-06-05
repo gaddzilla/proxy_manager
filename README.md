@@ -11,3 +11,9 @@ docker compose up --build
 - API: http://localhost:8000/api
 
 В `backend/.env` для Docker: `DB_HOST=mysql`, `DB_PASSWORD=root`.
+
+## Тесты
+
+```bash
+cd backend && composer test
+```
